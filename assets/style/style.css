@@ -101,7 +101,7 @@ header {
   position: absolute;
   height: 94px;
   width: 1000px;
-  right: -837px;
+  right: -300px;
   top: 0px;
   max-width: 100%;
 }
@@ -198,7 +198,27 @@ header {
   height: 100%;
   position: relative;
 }
+.navdrop
+{margin-left: 30px;
+position: relative;
+display: inline-block;
+height: 26px;
+transition-duration: 0.3s;
+}
+.navline {
+  height: 3px;
+  width: 0;
+  background-color: #82A861;
+  display: block;
+  content: "";
+  transition-duration: 0.5s;
+}
 
+
+.navdrop:hover .navline {
+  width: 100%;
+  transition-duration: 0.3s;
+}
 .date {
   position: absolute;
   background-color: #ffffff;

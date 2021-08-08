@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="assets/style/boostrap.css">
         <title>News</title>
         <link rel="stylesheet" href="assets/style/fonts.css">
+        <link rel="stylesheet" href="assets/style/responsive.css">
         <link rel="stylesheet" href="assets/style/style2.css">
     </head>
 <body>
@@ -18,14 +19,17 @@
                 <div class="logo">
                     <img src="image/logo.png" alt="logo">
                 </div>
+                
                 <div class="navbar">
                     <nav class="nav my-2">
                         <a class="nav-a" href="index.html"><span class="icon-home"></span></a>
-                        <a class="nav-a" href="document.html">Documents</a>
-                        <a class="nav-a" href="#">Archive</a>
-                        <a class="nav-a" href="#">Glossary</a>
-                        <a class="nav-a" href="#">About</a>
-                        <a class="nav-a" href="news.html">News Digest</a>
+                    <div class="navdrop">    <a class="nav-a" href="document.html">Documents</a>
+                        <div class="navline"></div>
+                    </div>
+                    <div class="navdrop">     <a class="nav-a" href="#">Archive</a><div class="navline"></div></div>
+                        <div class="navdrop">     <a class="nav-a" href="#">Glossary</a><div class="navline"></div></div>
+                            <div class="navdrop">      <a class="nav-a" href="#">About</a><div class="navline"></div></div>
+                                <div class="navdrop">       <a class="nav-a" href="news.html">News Digest</a><div class="navline"></div></div>
                     </nav>
                     <form class="form d-flex">
                         <input class="form-control" type="search" placeholder="Enter your keywords here..."
