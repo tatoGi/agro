@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?51whw0');
-  src:  url('../fonts/icomoon.eot?51whw0#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?51whw0') format('truetype'),
-    url('../fonts/icomoon.woff?51whw0') format('woff'),
-    url('../fonts/icomoon.svg?51whw0#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?2x8lxr');
+  src:  url('../fonts/icomoon.eot?2x8lxr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?2x8lxr') format('truetype'),
+    url('../fonts/icomoon.woff?2x8lxr') format('woff'),
+    url('../fonts/icomoon.svg?2x8lxr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,6 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,26 +24,45 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-leftarrow:before {
+  content: "\e909";
+  color: #c8c8c8;
+}
 .icon-rightarrow:before {
   content: "\e900";
+  color: #c8c8c8;
 }
-.icon-leftarrow:before {
+.icon-envelope:before {
   content: "\e901";
+  color: #4a821b;
 }
 .icon-fb:before {
   content: "\e902";
+  color: #5f982f;
 }
 .icon-tw:before {
   content: "\e903";
+  color: #5f982f;
 }
 .icon-linked:before {
   content: "\e904";
+  color: #5f982f;
 }
 .icon-home:before {
   content: "\e905";
+  color: #4a821b;
 }
-.icon-search:before {
+.icon-phone:before {
   content: "\e906";
+  color: #4a821b;
+}
+.icon-placeholder:before {
+  content: "\e907";
+  color: #4a821b;
+}
+.icon-skype:before {
+  content: "\e908";
+  color: #4a821b;
 }
 
 
@@ -172,14 +190,3 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "icomoon";
-  src: url("../style/icomoon.eot?heexy4");
-  src: url("../fonts/icomoon.eot?heexy4#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?heexy4") format("truetype"),
-    url("../fonts/icomoon.woff?heexy4") format("woff"),
-    url("../fonts/icomoon.svg?heexy4#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
