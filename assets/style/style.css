@@ -6,7 +6,6 @@ body {
   overflow-x: hidden;
   height: 100%;
 }
-
 .twin-banners{
   display: grid;
     grid-template-columns: auto auto;
@@ -42,6 +41,7 @@ header {
 .form-control {
   border-radius: none;
   border: 2px solid transparent;
+  height: 100%;
 }
 
 .nav {
@@ -67,6 +67,7 @@ header {
   border-bottom-right-radius: 10px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  height: 100%;
 }
 
 .search {
@@ -91,6 +92,7 @@ header {
 }
 .form-child{
   display: flex;
+  height: 100%;
 }
 .form:hover input {
   border: 2px solid #a24d1d;

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/style/fonts.css">
     
     <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="stylesheet" href="assets/style/responsive.css">
+<link rel="stylesheet" href="assets/style/responsive.css">
     <title>main</title>
 </head>
 <body>
@@ -19,35 +19,47 @@
         <div class="row">
             <div class="header-grey-div"></div>
             <header>
+              
                 <div class="logo">
                     <img src="image/logo.png" alt="logo">
                 </div>
+                <div class="mobile-container">
                 <div class="navbar">
                     <nav class="nav my-2">
                         <a class="nav-a" href="index.html"><span class="icon-home"></span></a>
                     <div class="navdrop">    <a class="nav-a" href="document.html">Documents</a>
                         <div class="navline"></div>
                     </div>
-    
                             <div class="navdrop">      <a class="nav-a" href="#">About</a><div class="navline"></div></div>
                                 <div class="navdrop">       <a class="nav-a" href="news.html">News Digest</a><div class="navline"></div>
                             </div>
                             <div class="navdrop">       <a class="nav-a" href="contact.html">Contact</a><div class="navline"></div>
                         </div>
-                    </nav>
-                    <form class="form ">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                          
+                             <form class="form ">
                         <div class="form-child">
                         <input class="form-control" type="search" placeholder="Enter your keywords here..."
                             aria-label="Search">
                         <button class="btn btn-outline-success" type="submit"><img class="search" src="image/search.png"
                                 alt="search"></button></div>
                     </form>
+                    </nav>
+                   <script>
+                            function myFunction() {
+                              var x = document.getElementById("myLinks");
+                              if (x.style.display === "block") {
+                                x.style.display = "none";
+                              } else {
+                                x.style.display = "block";
+                              }
+                            }
+                            </script>
                 </div>
-                <div class="menuicon">
-                <span class="span-line"></span>
-                <span class="span-line"></span>
-                <span class="span-line"></span>
             </div>
+                  
             </header>
           
                                 </div>
