@@ -16,10 +16,11 @@
 </head>
 
 <body>
-    <div class="container ">
+    <div class="container">
         <div class="row">
             <div class="header-grey-div"></div>
             <header>
+              
                 <div class="logo">
                     <img src="image/logo.png" alt="logo">
                 </div>
@@ -29,38 +30,42 @@
                     <div class="navdrop">    <a class="nav-a" href="document.html">Documents</a>
                         <div class="navline"></div>
                     </div>
-                    <div class="navdrop">     <a class="nav-a" href="#">Archive</a><div class="navline"></div></div>
-                        <div class="navdrop">     <a class="nav-a" href="#">Glossary</a><div class="navline"></div></div>
-                            <div class="navdrop">      <a class="nav-a" href="show.html">About</a><div class="navline"></div></div>
+                            <div class="navdrop">      <a class="nav-a" href="show">About</a><div class="navline"></div></div>
                                 <div class="navdrop">       <a class="nav-a" href="news.html">News Digest</a><div class="navline"></div>
                             </div>
                             <div class="navdrop">       <a class="nav-a" href="contact.html">Contact</a><div class="navline"></div>
                         </div>
-                    </nav>
-                    <form class="form d-flex">
+                        
+                             <form class="form ">
+                        <div class="form-child">
                         <input class="form-control" type="search" placeholder="Enter your keywords here..."
                             aria-label="Search">
                         <button class="btn btn-outline-success" type="submit"><img class="search" src="image/search.png"
-                                alt="search"></button>
+                                alt="search"></button></div>
                     </form>
-                </div>
-                <div class="menuicon">
-                <span class="span-line"></span>
-                <span class="span-line"></span>
-                <span class="span-line"></span>
+                    </nav>
+                </div>   
+                 <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div> 
+                
+                <ul class="nav" id="nav">
+                    <li><a href="index.html"><span class="icon-home"></span</a></li>
+                    <li><a href="document.html">Document</a></li>
+                    <li><a href="show.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+               
             </div>
+            <div class="menu-bg" id="menu-bg"></div>
             </header>
+            
           
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-            
-            </div>
-        </div>
-    </div>
         <section class="news-section">
             <div class="container">
                 <div class="row">
@@ -319,7 +324,9 @@
                         </div>
                     </div>
                 </div>
-        </footer>
+            </footer>
+           
+            <script src="assets/js/main.js"></script>
 </body>
 
 </html>
