@@ -1,25 +1,6 @@
-@media(max-width:640px) {
-  .childtext {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    color: #ffffff;
-    box-sizing: border-box;
-    background-color: #25252581;
-    opacity: 0.2px;
-    /* padding-left: 41px; */
-    font-family: "OpenSans-Bold";
-    padding: 19px 29px 0px 30px;
-    top: 91px;
-  }
- 
-}
-@media(max-width:700px){
-  .container {
-    max-width: 680px;
-}
-}
- @media(max-width:780px){
+
+
+@media(max-width:780px){
   footer .footer-menu{
     display: none;
   }
@@ -174,6 +155,20 @@
   right: -34px;
   top: 0;
 }
+.perents-all h1 {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-family: "OpenSans-bold";
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.child img {
+  width: 100%;
+  max-width: 283px;
+  height: 320px;
+  object-fit: cover;
+}
 }
 @media(max-width:1275px){
   .navdrop {
@@ -193,7 +188,102 @@
   .container {
     max-width: 1100px;
   }
+  .grid-text h3 {
+    color: #414141;
+    font-size: 14px;
+    height: 30px;
+    max-width: 100%;
+    font-weight: 600;
+    font-family: "OpenSans-Bold";
+  }
+  .header-grey-div {
+    background-color: #F5F5F5;
+    height: 94px;
+    width: 40.54%;
+    position: absolute;
+    right: -14px;
+    top: 0;
+}
+.projects {
+  width: 105px;
+  height: 21px;
+  background-color: #ffff;
+  position: absolute;
+  display: flex;
+  top: 0;
+}
 
+.projects h1 {
+  color: #6a6a6a;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.first-text h1 {
+  margin-top: 0;
+  font-size: 13px;
+  color: #414141;
+  font-family: "OpenSans-bold";
+  height: 40px;
+  padding-left: 8px;
+}
+
+.first-text span {
+  color: #4a821b;
+  font-size: 13px;
+  font-family: "Bahnschrift";
+  margin-bottom: 0px;
+}
+
+.first-text p {
+  font-size: 14px;
+  color: #414141;
+  height: 45.56px;
+  overflow: hidden;
+  font-family: "OpenSans-regular";
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.about p {
+  color: #6A6A6A;
+  font-size: 16px;
+  font-family: "OpenSans-Bold";
+  padding-left: 10px;
+}
+
+.workshop {
+  position: absolute;
+  top: 0;
+  width: 126px;
+  height: 26px;
+  background-color: #ffff;
+  display: flex;
+  padding-top: 10px;
+}
+
+.line {
+  width: 24px;
+  height: 3px;
+  background-color: #4a821b;
+  margin-top: 5px;
+}
+
+.workshop h1 {
+  font-size: 12px;
+  color: #6a6a6a;
+  font-family: "OpenSans-bold";
+  font-weight: 600;
+}
+  .grid-text p {
+    color: #414141;
+    font-size: 13px;
+    height: 65px;
+    max-width: 100%;
+    padding-top: 4.1px;
+    font-family: "OpenSans-Light";
+    overflow: hidden;
+  }
   .btn {
     background-color: #a24d1d;
     max-width: 100%;
@@ -474,7 +564,7 @@
     height: 94px;
     width: 40.54%;
     position: absolute;
-    right: -424px;
+    right: -74px;
     top: 0;
 }
 }
@@ -485,7 +575,7 @@
     height: 94px;
     width: 53.54%;
     position: absolute;
-    right: -424px;
+    right: -64px;
     top: 0;
 }
 }
@@ -778,6 +868,51 @@
   }
 
   @media (max-width:768px) {
+    .row{
+      margin: 0;
+    }
+    .childtext {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      color: #ffffff;
+      box-sizing: border-box;
+      background-color: #25252581;
+      opacity: 0.2px;
+      /* padding-left: 41px; */
+      font-family: "OpenSans-Bold";
+      padding: 0px 29px 0px 43px;
+      top: 60%;
+      height: 84px;
+      overflow: hidden;
+  }
+  .childtext h2 {
+    font-family: "OpenSans-bold";
+    color: white;
+    font-size: 14px;
+}
+.child .childimg {
+  width: 100%;
+  max-width: 283px;
+  height: 100px;
+  object-fit: cover;
+}
+.rocket {
+  background-color: #18b697;
+  width: 100%;
+  height: 60px;
+}
+.rocket1 {
+  background-color: #18b697;
+  height: 70px;
+  width: 100%;
+}
+.rocket2 {
+  background-color: #18b697;
+  height: 100px;
+  width: 100%;
+  margin-top: 58px;
+}
     .col-11 a {
       display: block;
       margin-bottom: 20px;
@@ -869,33 +1004,6 @@
     }
   }
 
-  @media (max-width:1200px) {
-    .grid-text h3 {
-      color: #414141;
-      font-size: 14px;
-      height: 30px;
-      max-width: 100%;
-      font-weight: 600;
-      font-family: "OpenSans-Bold";
-    }
-    .header-grey-div {
-      background-color: #F5F5F5;
-      height: 94px;
-      width: 40.54%;
-      position: absolute;
-      right: -14px;
-      top: 0;
-  }
-    .grid-text p {
-      color: #414141;
-      font-size: 13px;
-      height: 65px;
-      max-width: 100%;
-      padding-top: 4.1px;
-      font-family: "OpenSans-Light";
-      overflow: hidden;
-    }
-  }
 
   @media (max-width:993px) {
     .grid-text h3 {
@@ -1029,79 +1137,7 @@
     }
   }
 
-  @media (max-width:1200px) {
-    .projects {
-      width: 105px;
-      height: 21px;
-      background-color: #ffff;
-      position: absolute;
-      display: flex;
-      top: 0;
-    }
-
-    .projects h1 {
-      color: #6a6a6a;
-      font-size: 13px;
-      padding-left: 10px;
-    }
-
-    .first-text h1 {
-      margin-top: 0;
-      font-size: 13px;
-      color: #414141;
-      font-family: "OpenSans-bold";
-      height: 40px;
-      padding-left: 8px;
-    }
-
-    .first-text span {
-      color: #4a821b;
-      font-size: 13px;
-      font-family: "Bahnschrift";
-      margin-bottom: 0px;
-    }
-
-    .first-text p {
-      font-size: 14px;
-      color: #414141;
-      height: 45.56px;
-      overflow: hidden;
-      font-family: "OpenSans-regular";
-      font-weight: 500;
-      margin-top: 7px;
-    }
-
-    .about p {
-      color: #6A6A6A;
-      font-size: 16px;
-      font-family: "OpenSans-Bold";
-      padding-left: 10px;
-    }
-
-    .workshop {
-      position: absolute;
-      top: 0;
-      width: 126px;
-      height: 26px;
-      background-color: #ffff;
-      display: flex;
-      padding-top: 10px;
-    }
-
-    .line {
-      width: 24px;
-      height: 3px;
-      background-color: #4a821b;
-      margin-top: 5px;
-    }
-
-    .workshop h1 {
-      font-size: 12px;
-      color: #6a6a6a;
-      font-family: "OpenSans-bold";
-      font-weight: 600;
-    }
-  }
+ 
 
   @media (max-width:993px) {
     .first-text h1 {
@@ -1149,22 +1185,6 @@
     }
   }
 
-  @media (max-width:1200px) {
-    .perents-all h1 {
-      font-size: 16px;
-      color: #6a6a6a;
-      font-family: "OpenSans-bold";
-      padding-left: 10px;
-      padding-top: 10px;
-    }
-
-    .child img {
-      width: 100%;
-      max-width: 283px;
-      height: 320px;
-      object-fit: cover;
-    }
-  }
 
   @media(max-width:993px) {
 
